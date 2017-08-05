@@ -1,3 +1,7 @@
+;; Who knows what will happen!
+(when (version< emacs-version "25.2")
+  (message "This Emacs version is not known to be compatible with this config."))
+
 ;; Set file used by customize interface.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
