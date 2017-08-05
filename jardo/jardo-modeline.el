@@ -1,6 +1,7 @@
-(use-package nyan-mode
+(use-package smart-mode-line
   :ensure t
   :config
-  (nyan-mode))
+  (setq sml/theme 'respectful)
+  (sml/setup))
 
 (provide 'jardo-modeline)
