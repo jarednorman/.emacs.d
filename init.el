@@ -10,6 +10,7 @@
 (require 'jardo-setup)
 (require 'jardo-backups)
 (require 'jardo-packages)
+(require 'jardo-evil)
 
 (require 'evil)
 (evil-mode 1)
