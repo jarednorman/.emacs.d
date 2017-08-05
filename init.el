@@ -1,3 +1,11 @@
+(when (version< emacs-version "25.2")
+  (message "This Emacs version is not known to be compatible with this config."))
+
+(add-to-list 'load-path (expand-file-name "jardo" user-emacs-directory))
+
+(require 'jardo-setup)
+(require 'jardo-backups)
+
 (require 'package)
 
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
@@ -20,8 +28,6 @@
   :ensure t)
 
 (load-theme 'base16-unikitty-light t)
-
-(tool-bar-mode -1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
