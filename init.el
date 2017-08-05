@@ -12,6 +12,7 @@
 (require 'jardo-packages)
 (require 'jardo-which)
 (require 'jardo-evil)
+(require 'jardo-general)
 (require 'jardo-modeline)
 (require 'jardo-magit)
 (require 'jardo-helm)
