@@ -14,8 +14,3 @@
 (require 'jardo-magit)
 (require 'jardo-helm)
 (require 'jardo-theme)
-
-(use-package base16-theme
-  :ensure t)
-
-(load-theme 'base16-unikitty-light t)
