@@ -16,3 +16,4 @@
 (require 'jardo-helm)
 (require 'jardo-theme)
 (require 'jardo-diminish)
+(require 'jardo-projectile)

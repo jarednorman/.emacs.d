@@ -1,6 +1,5 @@
 (use-package diminish
   :ensure t
-  :config
-  (diminish 'which-key-mode))
+  :config)
 
 (provide 'jardo-diminish)
