@@ -19,3 +19,4 @@
 (require 'jardo-theme)
 (require 'jardo-diminish)
 (require 'jardo-projectile)
+(require 'jardo-flycheck)
