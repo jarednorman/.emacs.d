@@ -11,15 +11,9 @@
 (require 'jardo-backups)
 (require 'jardo-packages)
 (require 'jardo-evil)
-
-(require 'evil)
-(evil-mode 1)
-
-(use-package magit
-  :ensure t)
-
-(use-package helm
-  :ensure t)
+(require 'jardo-magit)
+(require 'jardo-helm)
+(require 'jardo-theme)
 
 (use-package base16-theme
   :ensure t)
