@@ -15,6 +15,7 @@
 (require 'jardo-diminish)
 (require 'jardo-projectile)
 (require 'jardo-flycheck)
+(require 'jardo-company)
 
 (require 'jardo-ruby)
 
