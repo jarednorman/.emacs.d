@@ -1,7 +1,7 @@
-(use-package base16-theme
+(use-package leuven-theme
   :ensure t
   :config
-  (load-theme 'base16-unikitty-light t))
+  (load-theme 'leuven t))
 
 (set-face-attribute 'default nil
                     :family "Menlo" :height 140 :weight 'normal)
