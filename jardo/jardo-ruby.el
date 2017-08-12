@@ -1,6 +1,13 @@
+;;; jardo-ruby.el --- Ruby support!
+
+;;; Commentary:
+
+;;; Code:
+
 (use-package enh-ruby-mode
   :ensure t
   :config
+  (setq enh-ruby-add-encoding-comment-on-save nil)
   (add-to-list 'auto-mode-alist
 	       '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode)))
 
@@ -10,3 +17,5 @@
   (add-hook 'projectile-after-switch-project-hook 'chruby-use-corresponding))
 
 (provide 'jardo-ruby)
+
+;;; jardo-ruby.el ends here

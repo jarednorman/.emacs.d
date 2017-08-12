@@ -17,5 +17,8 @@
 (require 'jardo-company)
 
 (require 'jardo-ruby)
+(require 'jardo-clojure)
+(require 'jardo-typescript)
+(require 'jardo-web)
 
 ;;; init.el ends here
