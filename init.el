@@ -18,6 +18,7 @@
 
 (require 'jardo-ruby)
 (require 'jardo-clojure)
+(require 'jardo-javascript)
 (require 'jardo-typescript)
 (require 'jardo-web)
 
