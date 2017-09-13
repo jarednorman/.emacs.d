@@ -15,9 +15,6 @@
 ;; Disable the menu bar.
 (menu-bar-mode -1)
 
-;; Maximize.
-(toggle-frame-maximized)
-
 ;; Disable vertical scrollbar.
 (scroll-bar-mode -1)
 
