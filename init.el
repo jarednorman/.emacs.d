@@ -21,6 +21,7 @@
 (require 'jardo-javascript)
 (require 'jardo-coffeescript)
 (require 'jardo-typescript)
+(require 'jardo-haml)
 (require 'jardo-web)
 
 ;;; init.el ends here

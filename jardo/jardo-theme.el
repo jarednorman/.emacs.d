@@ -4,6 +4,6 @@
   (load-theme 'leuven t))
 
 (set-face-attribute 'default nil
-                    :family "Menlo" :height 140 :weight 'normal)
+                    :family "Menlo" :height 150 :weight 'normal)
 
 (provide 'jardo-theme)
