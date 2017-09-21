@@ -1,9 +1,8 @@
-(use-package leuven-theme
+(use-package dracula-theme
   :ensure t
   :config
-  (load-theme 'leuven t))
-
-(set-face-attribute 'default nil
-                    :family "Menlo" :height 150 :weight 'normal)
+  (load-theme 'dracula t)
+  (set-face-attribute 'default nil
+		      :family "Menlo" :height 150 :weight 'normal))
 
 (provide 'jardo-theme)
