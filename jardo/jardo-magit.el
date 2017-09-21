@@ -2,11 +2,7 @@
   :ensure t)
 
 (use-package evil-magit
-  :ensure t
-  :config
-  (use-package magit-gh-pulls
-    :ensure t
-    :config
-    (add-hook 'magit-mode-hook 'turn-on-magit-gh-pulls)))
+  :after magit
+  :ensure t)
 
 (provide 'jardo-magit)
