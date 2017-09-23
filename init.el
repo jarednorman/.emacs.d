@@ -8,7 +8,6 @@
 (require 'jardo-which)
 (require 'jardo-evil)
 (require 'jardo-general)
-(require 'jardo-magit)
 (require 'jardo-helm)
 (require 'jardo-theme)
 (require 'jardo-diminish)
