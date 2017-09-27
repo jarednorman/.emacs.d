@@ -14,6 +14,7 @@
 (require 'jardo-projectile)
 (require 'jardo-flycheck)
 (require 'jardo-company)
+(require 'jardo-magit)
 
 (require 'jardo-ruby)
 (require 'jardo-clojure)
