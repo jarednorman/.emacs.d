@@ -22,5 +22,6 @@
 (require 'jardo-typescript)
 (require 'jardo-haml)
 (require 'jardo-web)
+(require 'jardo-markdown)
 
 ;;; init.el ends here
