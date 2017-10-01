@@ -5,7 +5,8 @@
 ;;; Code:
 
 (defun jardo/setup-js2-mode ()
-  (setq js2-basic-offset 2))
+  (setq js2-basic-offset 2)
+  (setq indent-tabs-mode nil))
 
 (use-package js2-mode
   :ensure t
