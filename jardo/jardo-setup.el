@@ -27,6 +27,9 @@
 ;; Disable macOS native fullscreen.
 (setq ns-use-native-fullscreen nil)
 
+;; Delete trailing whitespace on save.
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;; Always load newest byte code.
 (setq load-prefer-newer t)
 

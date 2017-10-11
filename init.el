@@ -15,6 +15,7 @@
 (require 'jardo-flycheck)
 (require 'jardo-company)
 (require 'jardo-magit)
+(require 'jardo-rainbows)
 
 (require 'jardo-ruby)
 (require 'jardo-clojure)
