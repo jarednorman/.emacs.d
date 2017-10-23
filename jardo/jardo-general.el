@@ -27,6 +27,7 @@
 			"ff" 'helm-find-files
 			"fw" 'save-buffer
 			"gb" 'magit-blame
+			"ll" 'persp-switch
 			"pf" 'helm-projectile-find-file
 			"pp" 'helm-projectile-switch-project
 			"wd" 'delete-window

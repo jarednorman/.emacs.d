@@ -16,6 +16,7 @@
 (require 'jardo-company)
 (require 'jardo-magit)
 (require 'jardo-rainbows)
+(require 'jardo-perspective)
 
 (require 'jardo-ruby)
 (require 'jardo-clojure)

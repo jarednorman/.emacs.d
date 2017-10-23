@@ -19,6 +19,9 @@
   :config
   (add-hook 'projectile-after-switch-project-hook 'chruby-use-corresponding))
 
+(use-package bundler
+  :ensure t)
+
 (provide 'jardo-ruby)
 
 ;;; jardo-ruby.el ends here

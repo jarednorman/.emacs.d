@@ -1,8 +1,8 @@
-(use-package leuven-theme
+(use-package gruvbox-theme
   :ensure t
   :config
-  (load-theme 'leuven t)
+  (load-theme 'gruvbox-light-medium t)
   (set-face-attribute 'default nil
-                      :family "Office Code Pro" :height 140 :weight 'normal))
+                      :family "Fira Mono" :height 150 :weight 'normal))
 
 (provide 'jardo-theme)
