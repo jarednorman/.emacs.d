@@ -1,8 +1,8 @@
-(use-package gruvbox-theme
+(use-package base16-theme
   :ensure t
   :config
-  (load-theme 'gruvbox-light-medium t)
+  (load-theme 'base16-default-dark t)
   (set-face-attribute 'default nil
-                      :family "Fira Mono" :height 150 :weight 'normal))
+                      :family "Fira Mono" :height 170 :weight 'normal))
 
 (provide 'jardo-theme)

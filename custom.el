@@ -44,7 +44,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (perspective bundler rainbow-delimiters evil-magit magit emacs-color-theme-solarized solarized-theme markdown-mode coffee-mode haml-mode coffeescript-mode js2-mode web-mode tide typescript-mode cider company company-mode chruby enh-ruby-mode flycheck helm-projectile projectile spaceline spaceline-config use-package evil-visual-mark-mode ##)))
+    (base16-theme perspective bundler rainbow-delimiters evil-magit magit emacs-color-theme-solarized solarized-theme markdown-mode coffee-mode haml-mode coffeescript-mode js2-mode web-mode tide typescript-mode cider company company-mode chruby enh-ruby-mode flycheck helm-projectile projectile spaceline spaceline-config use-package evil-visual-mark-mode ##)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(safe-local-variable-values
