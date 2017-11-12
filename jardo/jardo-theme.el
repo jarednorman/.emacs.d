@@ -1,8 +1,8 @@
-(use-package base16-theme
+(use-package leuven-theme
   :ensure t
   :config
-  (load-theme 'base16-default-dark t)
+  (load-theme 'leuven t)
   (set-face-attribute 'default nil
-                      :family "Fira Mono" :height 170 :weight 'normal))
+                      :family "Office Code Pro" :height 170 :weight 'normal))
 
 (provide 'jardo-theme)
