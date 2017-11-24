@@ -3,6 +3,6 @@
   :config
   (load-theme 'leuven t)
   (set-face-attribute 'default nil
-                      :family "Office Code Pro" :height 170 :weight 'normal))
+                      :family "Office Code Pro" :height 150 :weight 'normal))
 
 (provide 'jardo-theme)
