@@ -30,6 +30,8 @@
 			"ll" 'persp-switch
 			"pf" 'helm-projectile-find-file
 			"pp" 'helm-projectile-switch-project
+			"w-" 'text-scale-decrease
+			"w=" 'text-scale-increase
 			"wd" 'delete-window
 			"wh" 'evil-window-left
 			"wj" 'evil-window-down
