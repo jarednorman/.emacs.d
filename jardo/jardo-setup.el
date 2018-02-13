@@ -33,6 +33,9 @@
 ;; Always load newest byte code.
 (setq load-prefer-newer t)
 
+;; Shhhh
+(setq visible-bell 1)
+
 ;; Warn when opening files bigger than 100MB.
 (setq large-file-warning-threshold 100000000)
 
