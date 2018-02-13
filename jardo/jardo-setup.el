@@ -42,4 +42,8 @@
 ;; Enable spell checking by changing this to `t`.
 (defconst *spell-check-support-enabled* nil)
 
+;; I never have more than one emacs open, so I don't need the
+;; interlock feature.
+(setq create-lockfiles nil)
+
 (provide 'jardo-setup)
